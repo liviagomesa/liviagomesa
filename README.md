@@ -24,12 +24,14 @@ Aplicação Full Stack para gerenciamento financeiro de condomínios construída
 
 Arquitetura em camadas inspirada em conceitos de Domain-Driven Design (DDD), com separação entre API, domínio e infraestrutura.
 
-**Tecnologias:** Java • Spring Boot • Angular • PostgreSQL • Docker Compose • JUnit • GitHub SpecKit
+**Tecnologias:** Java • Spring Boot • Angular • PostgreSQL • Docker Compose • JUnit • Vitest • GitHub SpecKit • Bootstrap
 
 **Principais funcionalidades**
-- Cadastro de condôminos e fornecedores
-- Cadastro de contas a pagar e a receber
-- Exibição de listagens com filtros e totais dinâmicos
+- Cadastro de partes (condôminos e fornecedores)
+- Cadastro de contas a pagar e a receber + pagamentos (total ou parcial)
+- Cadastro de fundos e cálculo automático de totais
+- Agrupamento de partes para bulk actions
+- Exibição de listagens com filtros, totais dinâmicos e caixas de seleção para bulk actions
 - Testes automatizados
 - Banco PostgreSQL executando via Docker Compose
 
