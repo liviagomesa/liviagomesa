@@ -20,19 +20,19 @@ Sou formada em **Sistemas para Internet** e atualmente faço pós-graduação em
 ## 🚀 Projetos em destaque
 
 ### 💰 Sistema de Gerenciamento de Finanças de Condomínio
-Aplicação Full Stack para gerenciamento financeiro de condomínios construída seguindo a metodologia Spec-driven Development (SDD).
+Aplicação Full Stack para gerenciamento financeiro do condomínio onde eu moro, construída seguindo Spec-driven Development (SDD).
 
 Arquitetura em camadas inspirada em conceitos de Domain-Driven Design (DDD), com separação entre API, domínio e infraestrutura.
 
 **Tecnologias:** Java • Spring Boot • Angular • PostgreSQL • Docker Compose • JUnit • Vitest • GitHub SpecKit • Bootstrap
 
 **Principais funcionalidades**
+- Criação de contas automaticamente (recorrência mensal)
 - Cadastro de partes (condôminos e fornecedores)
 - Cadastro de contas a pagar e a receber + pagamentos (total ou parcial)
 - Cadastro de fundos e cálculo automático de totais
-- Agrupamento de partes para bulk actions
-- Exibição de listagens com filtros, totais dinâmicos e caixas de seleção para bulk actions
-- Testes automatizados
+- Exibição de listagens com filtros, totais dinâmicos e bulk actions
+- Testes automatizados no back e frontend
 - Banco PostgreSQL executando via Docker Compose
 
 🔗 Repositório: https://github.com/liviagomesa/financas-condominio
