@@ -28,6 +28,7 @@ Arquitetura em camadas inspirada em conceitos de Domain-Driven Design (DDD), com
 
 **Principais funcionalidades**
 - Criação de contas automaticamente (recorrência mensal)
+- Autenticação JWT com guard de rotas
 - Cadastro de partes (condôminos e fornecedores)
 - Cadastro de contas a pagar e a receber + pagamentos (total ou parcial)
 - Cadastro de fundos e cálculo automático de totais
